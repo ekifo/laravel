@@ -32,7 +32,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.2",
-        "phpunit/phpunit": "^9.3.3",
+        "phpunit/phpunit": "^10.0",
+        "phpspec/prophecy": "^1.15",
         "laravel/tinker": "^2.5",
         "barryvdh/laravel-debugbar": "^3.2",
         "barryvdh/laravel-ide-helper": "^2.6"
@@ -92,6 +93,9 @@
         "optimize-autoloader": true,
         "allow-plugins": {
             "wikimedia/composer-merge-plugin": true
+        },
+        "platform": {
+            "php": "8.0"
         }
     },
     "minimum-stability": "dev",
